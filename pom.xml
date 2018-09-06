@@ -11,6 +11,7 @@
     <modules>
         <module>spi</module>
         <module>usespi</module>
+        <module>proxy</module>
     </modules>
 
     <groupId>com.haozi</groupId>
