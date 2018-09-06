@@ -4,10 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>read-jdk</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>read-jdk</name>
     <description>demo and test code about reading jdk</description>
+    <modules>
+        <module>spi</module>
+        <module>usespi</module>
+    </modules>
 
     <groupId>com.haozi</groupId>
     <version>0.0.1-SNAPSHOT</version> <!-- lookup parent from repository -->
